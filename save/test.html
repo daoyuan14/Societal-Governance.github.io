@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Webinar Registration</title>
+  <style>
+    :root{
+      --bg: #f3f5f7;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --primary: #1a73e8;      /* Google 蓝 */
+      --danger: #d93025;       /* Google 红 */
+      --border: #dfe3e8;
+      --shadow: 0 10px 30px rgba(0,0,0,.08);
+      --radius: 14px;
+    }
+
+    *{ box-sizing: border-box; }
+    body{
+      margin: 0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "PingFang SC",
+                   "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+    }
+
+    .page{
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 28px 18px 40px;
+    }
+
+    .layout{
+      display: grid;
+      grid-template-columns: 1.15fr .85fr;
+      gap: 22px;
+      align-items: start;
+    }
+
+    /* LEFT PANEL */
+    .left{
+      background: transparent;
+      padding: 6px 4px;
+    }
+
+    .badge{
+      font-weight: 700;
+      letter-spacing: .08em;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    h1{
+      margin: 10px 0 12px;
+      font-size: 44px;
+      line-height: 1.05;
+      color: #1f4e8c;
+    }
+
+    .time{
+      font-size: 20px;
+      font-weight: 700;
+      margin: 0 0 14px;
+    }
+
+    .note{
+      font-style: italic;
+      color: var(--text);
+      margin: 0 0 18px;
+      font-weight: 600;
+    }
+
+    .p{
+      margin: 0 0 14px;
+      color: #111827;
+      font-size: 17px;
+      line-height: 1.7;
+    }
+
+    .section-title{
+      margin: 26px 0 12px;
+      font-size: 22px;
+      font-weight: 800;
+    }
+
+    .bullets{
+      margin: 0;
+      padding-left: 20px;
+      color: #111827;
+      font-size: 17px;
+      line-height: 1.7;
+    }
+
+    /* RIGHT PANEL / FORM */
+    .card{
+      background: var(--card);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+      border: 1px solid rgba(0,0,0,.04);
+    }
+
+    .card-header{
+      padding: 18px 18px 10px;
+      border-bottom: 1px solid rgba(0,0,0,.06);
+    }
+
+    .card-header h2{
+      margin: 0;
+      font-size: 22px;
+      font-weight: 800;
+      color: #174ea6;
+    }
+
+    form{
+      padding: 14px 18px 18px;
+    }
+
+    .field{
+      margin: 14px 0 16px;
+    }
+
+    label{
+      display: block;
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--muted);
+      margin-bottom: 8px;
+    }
+
+    .required-star{
+      color: var(--danger);
+      margin-left: 2px;
+    }
+
+    input[type="text"], input[type="email"], select{
+      width: 100%;
+      height: 44px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      padding: 0 12px;
+      outline: none;
+      font-size: 15px;
+      background: #fff;
+      transition: border-color .15s, box-shadow .15s;
+    }
+
+    input:focus, select:focus{
+      border-color: rgba(26,115,232,.85);
+      box-shadow: 0 0 0 4px rgba(26,115,232,.12);
+    }
+
+    .error{
+      margin-top: 8px;
+      color: var(--danger);
+      font-weight: 700;
+      font-size: 13px;
+      display: none; /* 默认隐藏，JS 校验时显示 */
+    }
+
+    .hint{
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .row{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    .radio-group{
+      display: flex;
+      gap: 18px;
+      align-items: center;
+      padding-top: 4px;
+    }
+    .radio{
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: #111827;
+      font-weight: 600;
+      font-size: 14px;
+    }
+    .radio input{ transform: translateY(1px); }
+
+    .actions{
+      margin-top: 18px;
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    button{
+      width: 100%;
+      height: 48px;
+      border: 0;
+      border-radius: 12px;
+      font-size: 16px;
+      font-weight: 800;
+      color: #fff;
+      background: #1f4e8c;
+      cursor: pointer;
+      transition: transform .05s, filter .15s;
+    }
+    button:hover{ filter: brightness(1.04); }
+    button:active{ transform: translateY(1px); }
+
+    /* Responsive */
+    @media (max-width: 920px){
+      .layout{ grid-template-columns: 1fr; }
+      h1{ font-size: 36px; }
+      .row{ grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="layout">
+      <!-- LEFT CONTENT -->
+      <section class="left">
+        <div class="badge">FREE WEBINAR</div>
+        <h1>Fostering Student Engagement<br/>with Gen AI</h1>
+        <div class="time">11:00 a.m. – 12:00 p.m. ET, December 12, 2024</div>
+        <div class="note">If you are interested, please register as we will provide all registrants with access to the webinar recording.</div>
+
+        <p class="p">
+          Generative AI is transforming the way educators connect with students by creating personalized experiences that
+          promote active participation and lead to more meaningful learning. In this webinar, Haya Ajjan, Associate Dean
+          and Professor of Management Information Systems at Elon University, will share practical strategies for using AI
+          to support active learning, deepen engagement, and create personalized feedback loops.
+        </p>
+
+        <p class="p">
+          Join us to discover ways to incorporate AI-driven course enhancements, facilitate interactive learning methods,
+          and design materials that inspire curiosity and understanding. Learn how to leverage AI tools to build impactful
+          student relationships and create dynamic, engaging educational experiences.
+        </p>
+
+        <div class="section-title">In this webinar, you will:</div>
+        <ul class="bullets">
+          <li>Explore how AI advancements can elevate your teaching and enhance connections with your students.</li>
+          <li>Discover methods for developing materials that encourage active learning and help simplify complex topics.</li>
+          <li>Uncover techniques for using AI to deliver personalized feedback that promotes student growth and sustained engagement.</li>
+        </ul>
+      </section>
+
+      <!-- RIGHT FORM -->
+      <aside class="card">
+        <div class="card-header">
+          <h2>Register Now</h2>
+        </div>
+
+        <form id="regForm" novalidate>
+          <div class="row">
+            <div class="field">
+              <label for="firstName">First Name<span class="required-star">*</span></label>
+              <input id="firstName" name="firstName" type="text" placeholder="First Name" required />
+              <div class="error" data-for="firstName">This field is required.</div>
+            </div>
+
+            <div class="field">
+              <label for="lastName">Last Name<span class="required-star">*</span></label>
+              <input id="lastName" name="lastName" type="text" placeholder="Last Name" required />
+              <div class="error" data-for="lastName">This field is required.</div>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="email">Email Address<span class="required-star">*</span></label>
+            <input id="email" name="email" type="email" placeholder="Email Address" required />
+            <div class="error" data-for="email">Must be valid email. example@yourdomain.com</div>
+          </div>
+
+          <div class="field">
+            <label for="institution">Institution</label>
+            <input id="institution" name="institution" type="text" placeholder="Institution" />
+          </div>
+
+          <div class="field">
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="" selected>Select...</option>
+              <option>China</option>
+              <option>United States</option>
+              <option>Canada</option>
+              <option>United Kingdom</option>
+              <option>Australia</option>
+              <option>Other</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="title">Title</label>
+            <select id="title" name="title">
+              <option value="" selected>Select...</option>
+              <option>Professor</option>
+              <option>Instructor</option>
+              <option>Administrator</option>
+              <option>Student</option>
+              <option>Other</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label>Are you teaching at a college or university?</label>
+            <div class="radio-group">
+              <label class="radio"><input type="radio" name="teaching" value="yes"> Yes</label>
+              <label class="radio"><input type="radio" name="teaching" value="no"> No</label>
+            </div>
+            <div class="hint">Optional question (example for Google Form style)</div>
+          </div>
+
+          <div class="actions">
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </aside>
+    </div>
+  </div>
+
+  <script>
+    // 简单前端校验：必填 + email 格式
+    const form = document.getElementById('regForm');
+
+    function showError(name, show){
+      const el = document.querySelector(`.error[data-for="${name}"]`);
+      if (el) el.style.display = show ? 'block' : 'none';
+    }
+
+    function isValidEmail(v){
+      // 简洁版 email 校验
+      return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v);
+    }
+
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+
+      const firstName = form.firstName.value.trim();
+      const lastName  = form.lastName.value.trim();
+      const email     = form.email.value.trim();
+
+      let ok = true;
+
+      if (!firstName){ showError('firstName', true); ok = false; } else showError('firstName', false);
+      if (!lastName){  showError('lastName', true);  ok = false; } else showError('lastName', false);
+      if (!email || !isValidEmail(email)){ showError('email', true); ok = false; } else showError('email', false);
+
+      if (!ok) return;
+
+      // 这里替换成你的提交逻辑：fetch 到后端 / Google Apps Script 等
+      alert('Submitted! (Demo)');
+
+      // form.reset(); // 如需提交后清空可打开
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="google-site-verification" content="JJaS3GF627KUiUyfcO4WNbHbVIdPyNQoVy3EkcTMySs" />
+    {% seo %}
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    {% include head-custom.html %}
+  </head>
+  <body>
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
+
+    <header class="page-header" role="banner">
+      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+      <h1 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h1>
+     
+      <a href="./index.html" class="btn">Home</a>
+      <a href="./about.html" class="btn">About the SWG</a>
+      <a href="./seminar.html" class="btn">Seminar Series</a>
+      <a href="./activity.html" class="btn">SWG Activities</a>
+      <a href="./committee.html" class="btn">Coordinators</a>
+      <!--<a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>-->
+
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+
+    <footer class="site-footer">
+      <div class="page-links">
+        <h3 class="footer-title">Explore</h3>
+        <nav>
+          <a href="./index.html">Home</a>
+          <a href="./about.html">About the SWG</a>
+          <a href="./seminar.html">Seminar Series</a>
+          <a href="./activity.html">SWG Activities</a>
+          <a href="./committee.html">Coordinators</a>
+        </nav>
+      </div>
+
+      <div class="footer-project">
+        <p class="project-subtitle">
+          Societal Governance in the Face of Polycrisis: Exploring Alternatives through International and Comparative Research
+        </p>
+      </div>
+
+      <div class="footer-credits">
+        EGOS Standing Working Group
+      </div>
+
+    </footer>
+    </main>
+  </body>
+</html>
