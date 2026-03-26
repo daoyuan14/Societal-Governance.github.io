@@ -56,7 +56,7 @@ In 2026, we launched a monthly online seminar series on societal governance to s
               target="_blank"
               rel="noopener noreferrer"
             >
-              Varieties of Uberization: How Technology and Institutions Change the Organizations of Late Capitalism
+              Varieties of Uberization: How Technology and Institutions Change the Organization(s) of Late Capitalism
             </a>
           </li>
           <li style="margin: 0 0 8px 0;">
