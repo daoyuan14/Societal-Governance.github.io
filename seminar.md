@@ -48,6 +48,24 @@ In 2026, we launched a monthly online seminar series on societal governance to s
         <p>
           Organizations vary widely around the world. Even firms in the same industry, creating essentially similar products or services, can look very different in their ownership, their size, their central aims and power structures, where they place their boundaries, and how they balance their commitments to different stakeholders. For example, half of the world's carbon emissions come from just 32 fossil fuel companies -- with 17 of the 20 biggest owned by governments. Any approach to societal governance must build in an understanding of the connections between public policy and the shape of business in different countries, as must any efforts at large-scale reform. I propose 'institutional terroir' as a metaphor and a set of directives to think about how national institutions shape firms.
         </p>
+        <h3>Background Readings</h3>
+        <ul>
+        <li>
+          <a href="https://journals.sagepub.com/doi/full/10.1177/2631787721995198">
+            Varieties of Uberization: How Technology and Institutions Change the Organizations of Late Capitalism
+          </a>
+        </li>
+        <li>
+          <a href="https://drive.google.com/file/d/1jVZS2MSrXIlZDuZziUO5H6m_0fga1ja3/view">
+            Concluding Reflections: Creating a Corporate Governance Architecture for the Sustainable Transition
+          </a>
+        </li>
+        <li>
+          <a href="https://www.imd.org/ibyimd/leadership/the-responsibility-paradox-in-era-of-sharecropper-capitalism/">
+            The ‘Responsibility Paradox’ in the Era of Sharecropper Capitalism
+          </a>
+        </li>
+      </ul>
       </div>
     </div>
   </details>
