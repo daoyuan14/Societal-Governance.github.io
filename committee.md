@@ -18,7 +18,7 @@ description: "Societal Governance in the Face of Polycrisis: Exploring Alternati
         <div class="member-meta">
           <p>University of Liverpool, UK (Lead Coordinator)</p>
           <a href="mailto:Z.Bodrozic@liverpool.ac.uk"  class="small-link">Z.Bodrozic@liverpool.ac.uk</a>
-          <a href="https://www.liverpool.ac.uk/people/zlatko-bodrozic/" class="small-link" target="_blank" rel="noopener noreferrer"> Zlatko Bodrozic’s Homepage
+          <a href="https://www.liverpool.ac.uk/people/zlatko-bodrozic/" class="small-link" target="_blank" rel="noopener noreferrer"> Homepage
           </a>
         </div>
       </div>
@@ -38,7 +38,7 @@ description: "Societal Governance in the Face of Polycrisis: Exploring Alternati
         <div class="member-meta">
           <p>Toulouse Business School, France</p>
           <a href="mailto:p.acosta@tbs-education.fr" class="small-link">p.acosta@tbs-education.fr</a>
-          <a href="https://www.tbs-education.com/teacher/acosta-pilar/" class="small-link" target="_blank" rel="noopener noreferrer"> Pilar Acosta’s Homepage
+          <a href="https://www.tbs-education.com/teacher/acosta-pilar/" class="small-link" target="_blank" rel="noopener noreferrer"> Homepage
           </a>
         </div>
       </div>
@@ -58,7 +58,7 @@ description: "Societal Governance in the Face of Polycrisis: Exploring Alternati
         <div class="member-meta">
           <p>University of Southern California, USA</p>
           <a href="mailto:padler@marshall.usc.edu" class="small-link">padler@marshall.usc.edu</a>
-          <a href="https://www.marshall.usc.edu/personnel/paul-s-adler/" class="small-link" target="_blank" rel="noopener noreferrer"> Paul Adler’s Homepage
+          <a href="https://www.marshall.usc.edu/personnel/paul-s-adler/" class="small-link" target="_blank" rel="noopener noreferrer"> Homepage
           </a>
         </div>
       </div>
@@ -77,8 +77,8 @@ description: "Societal Governance in the Face of Polycrisis: Exploring Alternati
         <h2 class="member-name">Gerald F. Davis</h2>
         <div class="member-meta">
           <p>University of Michigan, USA</p>
-          <a href="mailto:gfdavis@umich.edu"class="small-link">gfdavis@umich.edu</a>
-          <a href="https://sites.google.com/a/umich.edu/jerrydavis/home/" class="small-link" target="_blank" rel="noopener noreferrer"> Jerry Davis’s Homepage
+          <a href="mailto:gfdavis@umich.edu" class="small-link">gfdavis@umich.edu</a>
+          <a href="https://sites.google.com/a/umich.edu/jerrydavis/home/" class="small-link" target="_blank" rel="noopener noreferrer"> Homepage
           </a>
         </div>
       </div>
@@ -99,7 +99,7 @@ description: "Societal Governance in the Face of Polycrisis: Exploring Alternati
         <div class="member-meta">
           <p>City University of Hong Kong, Institute of Global Governance and Innovation for a Shared Future, Hong Kong</p>
           <a href="mailto:ho.tkalfred@cityu.edu.hk" class="small-link">ho.tkalfred@cityu.edu.hk</a>
-          <a href="https://scholars.cityu.edu.hk/en/persons/alfredho/" class="small-link" target="_blank" rel="noopener noreferrer"> Alfred Tat-Kei HO’s Homepage
+          <a href="https://scholars.cityu.edu.hk/en/persons/alfredho/" class="small-link" target="_blank" rel="noopener noreferrer"> Homepage
           </a>
         </div>
       </div>
@@ -119,7 +119,8 @@ description: "Societal Governance in the Face of Polycrisis: Exploring Alternati
         <div class="member-meta">
           <p>City University of Hong Kong, Department of Public and International Affairs, Hong Kong</p>
           <a href="mailto:ning.liu@cityu.edu.hk" class="small-link">ning.liu@cityu.edu.hk</a>
-          <a href="https://scholars.cityu.edu.hk/en/persons/ninliu/" class="small-link" target="_blank" rel="noopener noreferrer"> Ning Liu’s Homepage
+          <a href="https://scholars.cityu.edu.hk/en/persons/ninliu/" class="small-link" target="_blank" rel="noopener noreferrer">
+          Homepage
           </a>
         </div>
       </div>
