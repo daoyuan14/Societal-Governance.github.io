@@ -7,6 +7,12 @@ description: "Societal Governance in the Face of Polycrisis: Exploring Alternati
 ## Purpose of the Seminar Series
 In 2026, we launched a monthly online seminar series on societal governance to support the development of research ideas and papers. Our central goal is to equip our field with the conceptual and methodological foundation to study societal governance in the face of polycrisis from an international and comparative perspective, and to do that by engaging (1) the variety of perspectives in our organization studies field, (2) perspectives from adjacent disciplines such as public management, public policy, political science, and comparative social sciences, and (3) perspectives from the major regions of the world.
 
+***
+## Get the Latest Updates
+ 
+> If you would like to receive updates about our upcoming seminars, please fill out the registration form here: <a href="https://forms.cloud.microsoft/r/s1XnFWi41B" target="_blank" rel="noopener noreferrer">Registration</a>
+
+
 ## Seminar Series Organizers
 <ul>
   <li>Zlatko Bodrožić, University of Liverpool</li>

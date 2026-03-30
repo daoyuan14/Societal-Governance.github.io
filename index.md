@@ -44,7 +44,7 @@ description: "Societal Governance in the Face of Polycrisis: Exploring Alternati
 
 ## Get the Latest Updates
  
-> If you would like to receive updates about our upcoming seminars, please fill out the registration form here: <a href="https://forms.gle/h1XFgF92iL1oSxYv7" target="_blank" rel="noopener noreferrer">Registration</a>
+> If you would like to receive updates about our upcoming seminars, please fill out the registration form here: <a href="https://forms.cloud.microsoft/r/s1XnFWi41B" target="_blank" rel="noopener noreferrer">Registration</a>
 
 For more information, please visit egos: [https://www.egos.org/home](https://www.egos.org/home)
 
