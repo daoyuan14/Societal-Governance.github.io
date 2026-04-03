@@ -9,7 +9,6 @@ description: "Societal Governance in the Face of Polycrisis: Exploring Alternati
   <img src="assets/images/USC.jpg" alt="USC">
   <img src="assets/images/cityu.jpg" alt="cityu">
   <img src="assets/images/EGOS.jpg" alt="EGOS">
-  <img src="assets/images/NAPA.jpg" alt="NAPA">
 </div>
 
 <style>
@@ -44,7 +43,7 @@ description: "Societal Governance in the Face of Polycrisis: Exploring Alternati
 
 ## Get the Latest Updates
  
-> If you would like to receive updates about our upcoming seminars, please fill out the registration form here: <a href="https://forms.cloud.microsoft/r/s1XnFWi41B" target="_blank" rel="noopener noreferrer">Registration</a>
+> If you would like to receive updates about our upcoming seminars, conferences and other activities, please fill out the registration form here: <a href="https://forms.cloud.microsoft/r/s1XnFWi41B" target="_blank" rel="noopener noreferrer">Registration</a>
 
 For more information, please visit egos: [https://www.egos.org/home](https://www.egos.org/home)
 
