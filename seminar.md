@@ -32,8 +32,10 @@ In 2026, we launched a monthly online seminar series on societal governance to s
 <div class="seminar-card">
   <details id="seminar-1" open>
     <summary class="seminar-summary">
-      <span>Seminar Series # 1</span>
-      <span>Comparative organization theory and societal governance</span>
+    <span class="seminar-left">
+      <span class="seminar-series">Seminar Series #1</span>
+      <span class="seminar-title">Comparative organization theory and societal governance</span>
+    </span>
       <span class="seminar-right">
       <span class="seminar-meta">Jerry Davis，May 8, 2026</span>
       <span class="arrow">▶</span>
@@ -103,8 +105,10 @@ In 2026, we launched a monthly online seminar series on societal governance to s
 <div class="seminar-card">
   <details id="seminar-2">
   <summary class="seminar-summary">
-    <span>Seminar Series # 2</span>
-    <span>Seminar Title</span>
+    <span class="seminar-left">
+      <span class="seminar-series">Seminar Series #2</span>
+      <span class="seminar-title">Add Seminar Title</span>
+    </span>
     <span class="seminar-right">
       <span class="seminar-meta">David Soskice，June 5, 2026</span>
       <span class="arrow">▶</span>
@@ -176,43 +180,68 @@ window.addEventListener("load", function () {
   border: 1px solid #eee;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
   background: #fff;
   box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
 }
 
+/* summary 总体布局：左侧两排，右侧 meta + arrow */
 .seminar-summary {
   list-style: none;
-  font-size: 22px;
-  font-weight: 600;
   cursor: pointer;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 20px;
 }
 
-/* 去掉 details/summary 默认小三角 */
-.seminar-summary::-webkit-details-marker {
+/* 去掉 details / summary 默认小三角 */
+.seminar-summary::-webkit-details-marker,
+summary::-webkit-details-marker {
   display: none;
 }
 
+.seminar-left {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.seminar-series {
+  font-size: 18px;
+  font-weight: 500;
+  color: #666;
+  line-height: 1.4;
+}
+
+.seminar-title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #000;
+  line-height: 1.4;
+}
+
 .seminar-right {
+  flex-shrink: 0;
   display: flex;
   align-items: center;
   gap: 10px;
+  white-space: nowrap;
 }
 
 .seminar-meta {
   font-size: 18px;
   font-weight: 400;
-  white-space: nowrap;
+  color: #666;
 }
 
 .arrow {
   display: inline-block;
-  transition: transform 0.3s ease;
   font-size: 18px;
+  transition: transform 0.3s ease;
 }
 
 /* 只有箭头旋转 */
@@ -220,6 +249,7 @@ details[open] .arrow {
   transform: rotate(90deg);
 }
 
+/* 展开内容 */
 .seminar-content {
   margin-top: 20px;
 }
@@ -245,21 +275,21 @@ details[open] .arrow {
   width: 160px;
   height: 200px;
   object-fit: cover;
-  border-radius: 10px;
   display: block;
   border: 1px solid #ddd;
+  border-radius: 10px;
 }
 
 .seminar-photo.placeholder {
   width: 160px;
   height: 200px;
-  border: 1px dashed #ccc;
-  border-radius: 10px;
-  color: #999;
   display: flex;
   align-items: center;
   justify-content: center;
   background: #fafafa;
+  border: 1px dashed #ccc;
+  border-radius: 10px;
+  color: #999;
   font-size: 14px;
 }
 
@@ -275,18 +305,25 @@ details[open] .arrow {
   margin: 24px 0;
   border: none;
   height: 1px;
-  background: linear-gradient(to right, transparent, rgba(0,0,0,0.08), transparent);
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(0, 0, 0, 0.08),
+    transparent
+  );
 }
 
-details[open] .arrow {
-  transform: rotate(90deg);
-}
-
-summary::-webkit-details-marker {
-  display: none;
-}
-
+/* 响应式 */
 @media (max-width: 768px) {
+  .seminar-summary {
+    align-items: flex-start;
+  }
+
+  .seminar-right {
+    white-space: normal;
+    text-align: right;
+  }
+
   .seminar-top {
     flex-direction: column-reverse;
   }
@@ -296,6 +333,14 @@ summary::-webkit-details-marker {
   .seminar-photo.placeholder {
     width: 100%;
     max-width: 220px;
+  }
+
+  .seminar-title {
+    font-size: 20px;
+  }
+
+  .seminar-meta {
+    font-size: 16px;
   }
 }
 </style>
