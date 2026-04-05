@@ -34,7 +34,7 @@ In 2026, we launched a monthly online seminar series on societal governance to s
     <summary class="seminar-summary">
     <span class="seminar-left">
       <span class="seminar-series">Seminar Series #1</span>
-      <span class="seminar-title">Comparative organization theory and societal governance</span>
+      <span class="seminar-title">Comparative Organization Theory and Societal Governance</span>
     </span>
       <span class="seminar-right">
       <span class="seminar-meta">Jerry Davis，May 8, 2026</span>
@@ -211,14 +211,14 @@ summary::-webkit-details-marker {
 }
 
 .seminar-series {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
   color: #000;
   line-height: 1.4;
 }
 
 .seminar-title {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 600;
   color: #000;
   line-height: 1.4;
@@ -233,7 +233,7 @@ summary::-webkit-details-marker {
 }
 
 .seminar-meta {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
   color: #000;
 }
