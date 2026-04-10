@@ -39,7 +39,6 @@ description: "Societal Governance in the Face of Polycrisis: Exploring Alternati
 >
 > We envision an international and multidisciplinary learning process that engages SWG members with (1) disciplines such as management and organization studies, public management, public policy, political science, and comparative social sciences; (2) perspectives from Asia, Europe, North America, as well as Africa and Latin America; and (3) social movements and organizations at the forefront of addressing the polycrisis.
 
-***
 
 ## Get the Latest Updates
  
