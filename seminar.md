@@ -117,7 +117,7 @@ In 2026, we launched a monthly online seminar series on societal governance to s
       <div class="seminar-top">
         <div class="seminar-text">
           <p><strong>Speaker:</strong> 
-            <a href=""></a>
+            David Soskice<!--<a href="">David Soskice</a>-->
           </p>
           <p><strong>Affiliation:</strong></p>
           <p><strong>Date & Time:</strong>
@@ -138,7 +138,7 @@ In 2026, we launched a monthly online seminar series on societal governance to s
 
 
 <div class="seminar-card">
-  <details id="seminar-3" open>
+  <details id="seminar-3">
     <summary class="seminar-summary">
     <span class="seminar-left">
       <span class="seminar-series">Seminar Series #3</span>
