@@ -145,7 +145,7 @@ In 2026, we launched a monthly online seminar series on societal governance to s
       <span class="seminar-title"></span>
     </span>
     <span class="seminar-right">
-      <span class="seminar-meta">ZHU Xufeng</span>
+      <span class="seminar-meta">Xufeng Zhu</span>
       <span class="arrow">▶</span>
     </span>
   </summary>
@@ -153,13 +153,13 @@ In 2026, we launched a monthly online seminar series on societal governance to s
       <div class="seminar-top">
         <div class="seminar-text">
           <p><strong>Speaker:</strong> 
-            <a href="https://www.sppm.tsinghua.edu.cn/english/info/1067/1962.htm">ZHU Xufeng</a>
+            <a href="https://www.sppm.tsinghua.edu.cn/english/info/1067/1962.htm">Xufeng Zhu</a>
           </p>
           <p><strong>Affiliation:</strong> Tsinghua University</p>
           <p><strong>Date & Time:</strong></p>
         </div>
         <div class="seminar-photo">
-          <img src="assets/images/Xufeng.png" alt="ZHU Xufeng">
+          <img src="assets/images/Xufeng.png" alt="Xufeng Zhu">
         </div>
       </div>
       <hr class="seminar-divider">
