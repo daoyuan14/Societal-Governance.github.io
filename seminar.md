@@ -37,7 +37,7 @@ In 2026, we launched a monthly online seminar series on societal governance to s
       <span class="seminar-title">Comparative Organization Theory and Societal Governance</span>
     </span>
       <span class="seminar-right">
-      <span class="seminar-meta">Jerry Davis，May 8, 2026</span>
+      <span class="seminar-meta">Jerry Davis，May 8th, 2026</span>
       <span class="arrow">▶</span>
     </span>
     </summary>
@@ -49,9 +49,9 @@ In 2026, we launched a monthly online seminar series on societal governance to s
           </p>
           <p><strong>Affiliation:</strong> University of Michigan</p>
           <p><strong>Date & Time:</strong><br>
-            May 8, 2026, 8:00am-9:00am, ET<br>
-            May 8, 2026, 1:00pm-2:00pm, UK<br>
-            May 8, 2026, 8:00pm-9:00pm, China
+            May 8th, 2026, 8:00am-9:00am, ET<br>
+            May 8th, 2026, 1:00pm-2:00pm, UK<br>
+            May 8th, 2026, 8:00pm-9:00pm, China
           </p>
         </div>
         <div class="seminar-photo">
@@ -108,7 +108,7 @@ In 2026, we launched a monthly online seminar series on societal governance to s
       <span class="seminar-title"></span>
     </span>
     <span class="seminar-right">
-      <span class="seminar-meta">David Soskice, June 5 2026</span>
+      <span class="seminar-meta">David Soskice, June 5th 2026</span>
       <span class="arrow">▶</span>
     </span>
   </summary>
@@ -145,7 +145,7 @@ In 2026, we launched a monthly online seminar series on societal governance to s
       <span class="seminar-title"></span>
     </span>
     <span class="seminar-right">
-      <span class="seminar-meta">Xufeng Zhu, July 3 2026</span>
+      <span class="seminar-meta">Xufeng Zhu, July 3rd 2026</span>
       <span class="arrow">▶</span>
     </span>
   </summary>
@@ -179,7 +179,7 @@ In 2026, we launched a monthly online seminar series on societal governance to s
       <span class="seminar-title"></span>
     </span>
     <span class="seminar-right">
-      <span class="seminar-meta">Ruth Aguilera, September 4 2026</span>
+      <span class="seminar-meta">Ruth Aguilera, Sept. 4th 2026</span>
       <span class="arrow">▶</span>
     </span>
   </summary>
@@ -213,7 +213,7 @@ In 2026, we launched a monthly online seminar series on societal governance to s
       <span class="seminar-title"></span>
     </span>
     <span class="seminar-right">
-      <span class="seminar-meta">Sigrid Quack, October 2 2026</span>
+      <span class="seminar-meta">Sigrid Quack, Oct. 2nd 2026</span>
       <span class="arrow">▶</span>
     </span>
   </summary>
