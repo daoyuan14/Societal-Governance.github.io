@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /*
 
-Sitemap: https://wenxin-lu0.github.io/test.github.io/sitemap.xml
+Sitemap: https://societal-governance.github.io/sitemap.xml
